@@ -104,8 +104,8 @@ public:
     /// <param name="symbol"> Значение символов, которе отрезаем </param>
     void LTrim(char symbol);
 
-    friend std::ostream & operator<<(std::ostream &, const TString &) {}
-};
+//     friend std::ostream & operator<<(std::ostream &, const TString &) {}
+// };
 
 /// <summary> Оператор +</summary>
 /// <example>
